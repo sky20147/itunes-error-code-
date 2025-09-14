@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>아이튠즈 에러코드</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+  }
+
+  .container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    width: 400px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  #errorInput {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+
+  #searchBtn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  #searchBtn:hover {
+    background: #0056b3;
+  }
+
+  #result {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    min-height: 50px;
+    color: #333;
+  }
+
+  p {
+    margin: 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>아이튠즈 에러코드</h1>
+  <input type="text" id="errorInput" placeholder="에러 코드 입력 (예: 4016)">
+  <button id="searchBtn">검색</button>
+  <div id="result"></div>
+</div>
+
+<!-- 기존 script.js 그대로 불러오기 -->
+<script src="script.js"></script>
+
+</body>
+</html>
