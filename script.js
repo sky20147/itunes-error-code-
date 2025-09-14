@@ -13,7 +13,7 @@ async function searchError() {
         <p>${data[code]}</p>
       `;
     } else {
-      resultDiv.innerHTML = `<p>❗ 데이터에 없는 오류 코드입니다.</p>`;
+      resultDiv.innerHTML = `<p>❗ 데이터에 없는 에러 코드입니다.</p>`;
     }
   } catch (error) {
     resultDiv.innerHTML = `<p>❗ 오류 정보를 불러오는 데 실패했습니다.</p>`;
@@ -36,3 +36,4 @@ window.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener("click", searchError);
   }
 });
+
